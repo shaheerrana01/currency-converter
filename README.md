@@ -2,6 +2,8 @@
 
 A responsive currency converter built with HTML, CSS, and JavaScript by Shaheer Rana.
 
+[Live demo](https://currency-converter-shaheer.vercel.app)
+
 ## Features
 - Exchange rates for 166 currencies from ExchangeRate-API
 - USD to PKR defaults and a currency swap control
