@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currency Converter</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+
+  <div class="app">
+    <h1>💱 Currency Converter</h1>
+
+    <div class="converter">
+
+      <!-- FROM -->
+      <div class="box">
+        <label>From</label>
+        <select id="from-currency"></select>
+      </div>
+
+      <!-- SWAP -->
+      <div class="swap" id="swap">
+        <i class="fa-solid fa-arrows-rotate"></i>
+      </div>
+
+      <!-- TO -->
+      <div class="box">
+        <label>To</label>
+        <select id="to-currency"></select>
+      </div>
+
+      <!-- AMOUNT -->
+      <div class="box full">
+        <label>Amount</label>
+        <input type="number" id="amount" placeholder="Enter amount">
+      </div>
+
+      <!-- RESULT -->
+      <div style="color: #D3D3D3" class="result full" id="result">
+        Converted Amount 
+      </div>
+
+      <!-- BUTTON -->
+      <button class="btn full" id="convert">
+        Convert
+      </button>
+
+    </div>
+  </div>
+  <footer class="main-footer">
+    <p>Created by <span>Shaheer Rana</span></p>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
