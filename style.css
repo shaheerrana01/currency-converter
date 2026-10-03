@@ -185,3 +185,13 @@ body {
     padding-bottom: 80px; 
     flex-direction: column;
 }
+.main-footer a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.main-footer a:hover,
+.main-footer a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
